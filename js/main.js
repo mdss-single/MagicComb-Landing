@@ -38,11 +38,13 @@
 	})
 
 	if ($(window).width() < 850) {
-		$('.nav__list').clone().appendTo('.nav-place');
+		$('.nav-content').html('');
+		$('.nav__list').clone().appendTo('.nav-content');
 	}
 	$(window).resize(function() {
 		if ($(window).width() < 850) {
-			$('.nav__list').clone().appendTo('.nav-place');
+			$('.nav-content').html('');
+			$('.nav__list').clone().appendTo('.nav-content');
 		}
 	});
 

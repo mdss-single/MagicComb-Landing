@@ -1,7 +1,24 @@
-@media screen and (max-width:1044px) {
+.nav-place {
+	display:none;
+}
+@media screen and (max-width:1144px) {
 	.nav__item {
 		background-position:18px center !important;
 		padding-left:50px;
+	}
+}
+@media screen and (max-width:1044px) {
+	.nav .nav__item {
+		background:none !important;
+		padding-left:20px;
+	}
+	.nav .nav__list {
+		display:-webkit-flex;
+		display:-moz-flex;
+		display:-ms-flex;
+		display:-o-flex;
+		display:flex;
+		justify-content:space-between;
 	}
 	.logo {
 		width:70%;
@@ -39,6 +56,7 @@
 		display:none;
 	}
 	.nav-place {
+		display:block;
 		position:fixed;
 		top:0; bottom:0; left:-100%;
 		z-index:59999;
