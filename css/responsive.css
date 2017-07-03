@@ -1,0 +1,249 @@
+@media screen and (max-width:1044px) {
+	.nav__item {
+		background-position:18px center !important;
+		padding-left:50px;
+	}
+	.logo {
+		width:70%;
+	}
+	.slider {
+		height:440px;
+	}
+	.services::before, .news::before, .news::after {
+		display:none;
+	}
+	.hot__item {
+		padding:0;
+	}
+}
+@media screen and (max-width:850px) {
+	.header {
+		height:164px;
+	}
+	.header__burger {
+		display:block;
+	}
+	.cover {
+		position:fixed;
+		top:0; right:0; bottom:0; left:0;
+		z-index:9999;
+		background-color:rgba(0, 0, 0, .5);
+	}
+	.touch {
+		position:absolute;
+		top:0; bottom:0; left:0;
+		z-index:9999;
+		width:15px;
+	}
+	.nav {
+		display:none;
+	}
+	.nav-place {
+		position:fixed;
+		top:0; bottom:0; left:-100%;
+		z-index:59999;
+		overflow:auto;
+		width:50%;
+		background-color:#fff;
+		padding:15px;
+		box-shadow:0 0 3px rgba(0, 0, 0, .9);
+		transition:all .2s;
+	}
+	.nav-place--active {
+		transform:translateX(200%);
+	}
+		.nav-place__close {
+			display:block;
+			color:currentColor;
+			font-size:2rem;
+			text-decoration:none;
+			text-align:center;
+			border:2px solid #e1e1e1;
+			border-radius:5px;
+			padding:10px 18px;
+			margin-bottom:30px;
+		}
+		.nav__item {
+			display:block;
+			text-align:left;
+			background-position:0 center !important;
+			padding-left:30px;
+		}
+			.nav__item:first-child {
+				display:none;
+			}
+	.logo {
+		width:60%;
+	}
+	.header__phone {
+		top:16px;
+	}
+	.header__address {
+		top:128px;
+	}
+	.pluses {
+		height:auto;
+		padding-bottom:30px;
+	}
+	.news__item {
+		width:48%;
+	}
+	.news__list .flickity-prev-next-button.previous {
+		left:-46px;
+	}
+	.news__list .flickity-prev-next-button.next {
+		right:-46px;
+	}
+	.faq__question.faq__question--active::before {
+		display:none;
+	}
+	.faq__answer {
+		margin-top:30px;
+	}
+}
+@media screen and (max-width:700px) {
+	.header__burger {
+		left:15px;
+	}
+	.header__phone {
+		right:15px;
+	}
+	.logo {
+		left:12px;
+	}
+	.header__social {
+		right:15px;
+	}
+	.header__address {
+		right:15px;
+	}
+	.slider__item-title, .slider__item-descr {
+		padding:0;
+	}
+	.about-us {
+		padding:60px 15px;
+	}
+	.about-us::before {
+		display:none;
+	}
+	.news__item {
+		width:100%;
+	}
+	.news__list .flickity-prev-next-button.previous {
+		left:-15px;
+	}
+	.news__list .flickity-prev-next-button.next {
+		right:-15px;
+	}
+	.faq__questions {
+		margin:20px 15px 0;
+	}
+	.faq__another {
+		margin:0 15px 20px;
+	}
+	.faq .btn {
+		margin-left:15px;
+	}
+	.faq__answer {
+		margin:30px 15px 0;
+	}
+	.footer__nav {
+		margin-right:40px;
+	}
+	.footer__social {
+		right:15px;
+	}
+	.footer__phone {
+		right:15px;
+	}
+	.footer__address {
+		right:15px;
+	}
+}
+@media screen and (max-width:550px) {
+	.nav-place {
+		width:100%;
+		box-shadow:none;
+	}
+	.nav-place--active {
+		transform:translateX(100%);
+	}
+	.header {
+		height:224px;
+	}
+	.logo {
+		width:calc(100% - 24px);
+	}
+	.header__social {
+		top:153px; right:auto; left:50%;
+		transform:translateX(-50%);
+	}
+	.header__address {
+		top:198px;
+		right:auto; left:50%;
+		transform:translateX(-50%);
+	}
+	.hot__title {
+		margin-top:30px;
+	}
+	.footer {
+		height:250px;
+	}
+	.footer__nav {
+		width:49%;
+		margin-right:0;
+	}
+	.footer__social {
+		top:140px; right:auto; left:50%;
+		transform:translateX(-50%);
+	}
+	.footer__phone {
+		top:185px; right:auto; left:50%;
+		transform:translateX(-50%);
+	}
+	.footer__address {
+		top:218px; right:auto; left:50%;
+		font-size:1.5rem;
+		transform:translateX(-50%);
+	}
+}
+@media screen and (max-width:400px) {
+	.header {
+		height:220px;
+	}
+	.header__social {
+		top:140px;
+		left:15px; right:15px;
+		text-align:center;
+		transform:none;
+	}
+	.social__item {
+		margin-left:0;
+	}
+	.header__address {
+		top:188px;
+		left:15px; right:15px;
+		text-align:center;
+		transform:none;
+	}
+	.slider {
+		height:480px;
+	}
+	.modal {
+		width:90%;
+		padding:35px 20px !important;
+	}
+	.hot__title {
+		font-size:3.5rem;
+		line-height:1;
+	}
+	.hot__descr {
+		font-size:1.8rem;
+		margin-bottom:20px;
+	}
+	.footer__social, .footer__phone, .footer__address {
+		left:15px; right:15px;
+		text-align:center;
+		transform:none;
+	}
+}
