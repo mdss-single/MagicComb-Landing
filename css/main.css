@@ -260,14 +260,16 @@ a {
 	background:#fafafa url(../i/pluses__bg.jpg) repeat 276px 0;
 	padding-bottom:45px;
 }
-	.services::before {
-		position:absolute;
-		top:-333px; right:-57px;
-		width:387px; height:478px;
-		background-image:url(../i/services__bg.png);
-		-webkit-background-size:auto 100%;
-		background-size:auto 100%;
-		content:'';
+	@media screen and (min-width:1300px) {
+		.services::before {
+			position:absolute;
+			top:-333px; right:-57px;
+			width:387px; height:478px;
+			background-image:url(../i/services__bg.png);
+			-webkit-background-size:auto 100%;
+			background-size:auto 100%;
+			content:'';
+		}
 	}
 	.service__item {
 		position:relative;
@@ -307,19 +309,21 @@ a {
 .news {
 	padding-bottom:50px;
 }
-	.news::before {
-		position:absolute;
-		top:65px; right:-148px;
-		width:208px; height:162px;
-		background-image:url(../i/news__before.jpg);
-		content:'';
-	}
-	.news::after {
-		position:absolute;
-		top:411px; left:-111px;
-		width:218px; height:158px;
-		background-image:url(../i/news__after.jpg);
-		content:'';
+	@media screen and (min-width:1300px) {
+		.news::before {
+			position:absolute;
+			top:65px; right:-148px;
+			width:208px; height:162px;
+			background-image:url(../i/news__before.jpg);
+			content:'';
+		}
+		.news::after {
+			position:absolute;
+			top:411px; left:-111px;
+			width:218px; height:158px;
+			background-image:url(../i/news__after.jpg);
+			content:'';
+		}
 	}
 	.news__list {}
 		.news__item {
@@ -403,14 +407,16 @@ a {
 .faq {
 	padding:60px 0;
 }
-	.faq::before {
-		position:absolute;
-		bottom:40px; left:calc(100% + 52px);
-		width:391px; height:420px;
-		background-image:url(../i/faq__bg.jpg);
-		-webkit-background-size:cover;
-		background-size:cover;
-		content:'';
+	@media screen and (min-width:1300px) {
+		.faq::before {
+			position:absolute;
+			bottom:40px; left:calc(100% + 52px);
+			width:391px; height:420px;
+			background-image:url(../i/faq__bg.jpg);
+			-webkit-background-size:cover;
+			background-size:cover;
+			content:'';
+		}
 	}
 	.faq__questions {
 		margin-top:20px;
